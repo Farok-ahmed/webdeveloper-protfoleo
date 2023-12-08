@@ -11,6 +11,10 @@ h1{
     font-family: 'Lato',sans-serif;
 }
 
+p{
+    font-family: 'Lato',sans-serif;
+}
+
 .btn-primary{
     border-radius: 5px;
     background: #FD6E0A;
@@ -98,11 +102,23 @@ banner .profile-pic{
 }
 
 /* main section styles */
-
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* about section styles */
 section.about {
     padding: 130px;
     border: 10px;
-    background: #ffede1;
+    background: #fdf7f3;
     margin: 130px 0;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info{
+    text-align: center;
 }
